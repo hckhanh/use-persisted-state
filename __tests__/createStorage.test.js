@@ -1,5 +1,4 @@
-import 'jest-dom/extend-expect';
-
+import '@testing-library/jest-dom';
 import createStorage from '../src/createStorage';
 
 const mockStorage = {
