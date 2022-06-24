@@ -1,10 +1,10 @@
 {
-  "name": "use-persisted-state",
+  "name": "use-persisted-state-v2",
   "publishConfig": {
     "tag": "latest"
   },
-  "version": "0.3.3",
-  "description": "A custom React Hook that provides a multi-instance, multi-tab/browser shared and persistent state.",
+  "version": "0.3.4",
+  "description": "A custom React Hook that provides a multi-instance, multi-tab/browser shared and persistent state. This is an improved version of use-persisted-state.",
   "main": "dist/use-persisted-state.js",
   "umd:main": "dist/use-persisted-state.umd.js",
   "module": "dist/use-persisted-state.m.js",
@@ -12,7 +12,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/donavon/use-persisted-state.git"
+    "url": "https://github.com/hckhanh/use-persisted-state"
   },
   "scripts": {
     "prepublishOnly": "npm run build",
@@ -45,6 +45,7 @@
     "jest": "^23.6.0",
     "jest-dom": "^3.0.0",
     "microbundle": "^0.12.4",
+    "prettier": "^2.7.1",
     "react": "^16.8.0",
     "react-dom": "^16.8.0",
     "rimraf": "^2.6.2"
