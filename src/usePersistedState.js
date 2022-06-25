@@ -7,14 +7,18 @@ const usePersistedState = (initialState, key, { get, set }) => {
   const [state, setState] = useState(() => get(key, initialState));
 
   // subscribe to `storage` change events
-  useEventListener('storage', ({ key: k, newValue }) => {
-    if (k === key) {
-      const newState = JSON.parse(newValue);
-      if (state !== newState) {
-        setState(newState);
+  useEventListener(
+    'storage',
+    ({ key: k, newValue }) => {
+      if (k === key) {
+        const newState = JSON.parse(newValue);
+        if (state !== newState) {
+          setState(newState);
+        }
       }
-    }
-  });
+    },
+    window
+  );
 
   // only called on mount
   useEffect(() => {

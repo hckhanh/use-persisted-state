@@ -3,7 +3,7 @@
   "publishConfig": {
     "tag": "latest"
   },
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "A custom React Hook that provides a multi-instance, multi-tab/browser shared and persistent state. This is an improved version of use-persisted-state.",
   "main": "dist/use-persisted-state-v2.cjs",
   "umd:main": "dist/use-persisted-state-v2.umd.js",
