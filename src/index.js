@@ -1,7 +1,6 @@
 import { useState } from 'react';
-
-import usePersistedState from './usePersistedState';
 import createStorage from './createStorage';
+import usePersistedState from './usePersistedState';
 
 const getProvider = () => {
   if (typeof window !== 'undefined' && window.localStorage) {

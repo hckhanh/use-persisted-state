@@ -1,6 +1,5 @@
-import { useState, useEffect, useRef, useCallback } from 'react';
 import useEventListener from '@use-it/event-listener';
-
+import { useCallback, useEffect, useRef, useState } from 'react';
 import createGlobalState from './createGlobalState';
 
 const usePersistedState = (initialState, key, { get, set }) => {

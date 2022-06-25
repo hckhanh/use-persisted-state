@@ -5537,13 +5537,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jest-dom@npm:4.0.0":
-  version: 4.0.0
-  resolution: "jest-dom@npm:4.0.0"
-  checksum: d65b87a1973c0cec83179d60b755784a5215ff221fdb508486545ed739ba26c1d5bf51f00d73ca4791482a30d96e962396b170f0a4fa7176074159ec2317c946
-  languageName: node
-  linkType: hard
-
 "jest-each@npm:^28.1.1":
   version: 28.1.1
   resolution: "jest-each@npm:28.1.1"
@@ -8979,7 +8972,6 @@ __metadata:
     eslint-config-amex: 15.3.0
     eslint-plugin-react-hooks: 4.6.0
     jest: 28.1.1
-    jest-dom: 4.0.0
     jest-environment-jsdom: 28.1.1
     microbundle: 0.15.0
     prettier: 2.7.1
@@ -8987,7 +8979,7 @@ __metadata:
     react-dom: 18.2.0
     rimraf: 3.0.2
   peerDependencies:
-    react: 18
+    react: ^18
   languageName: unknown
   linkType: soft
 

@@ -71,3 +71,4 @@ typings/
 # lib
 lib/
 dist/
+src/*.d.ts
