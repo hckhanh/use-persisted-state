@@ -3,11 +3,12 @@
   "publishConfig": {
     "tag": "latest"
   },
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "A custom React Hook that provides a multi-instance, multi-tab/browser shared and persistent state. This is an improved version of use-persisted-state.",
-  "main": "dist/use-persisted-state.js",
-  "umd:main": "dist/use-persisted-state.umd.js",
-  "module": "dist/use-persisted-state.m.js",
+  "main": "dist/use-persisted-state-v2.cjs",
+  "umd:main": "dist/use-persisted-state-v2.umd.js",
+  "module": "dist/use-persisted-state-v2.m.js",
+  "jsnext:main": "dist/use-persisted-state-v2.modern.js",
   "source": "src/index.js",
   "types": "src/index.d.ts",
   "type": "module",
